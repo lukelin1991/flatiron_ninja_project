@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  images: MyString
+  ninja: one
+  is_found: false
+
+two:
+  images: MyString
+  ninja: two
+  is_found: false

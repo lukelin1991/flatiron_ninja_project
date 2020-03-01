@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  folder: 1
+  movement: MyString
+
+two:
+  name: MyString
+  folder: 1
+  movement: MyString
