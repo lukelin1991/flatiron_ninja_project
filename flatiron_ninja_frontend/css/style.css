@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-image: url("./img/Valley_of_the_End.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 header {
     position: relative;
     text-align: center;

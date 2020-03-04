@@ -68,7 +68,7 @@ const renderData = (data) => {
 
         world.innerHTML = output // displaying the grid onto the id: world
 
-        score.textContent = `${data.name}, Your folder: ${ninjaFolder}0%`
+        score.innerHTML = `<h3>${data.name}, Your folder: ${ninjaFolder}0%</h3>`
 
         // -----------------------------------FILES MANIPULATION -----------------------------------------//
         let imgArray = [] // lets me not have to worry about getting by ID.
