@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: relative;
+    text-align: center;
+}
+#container {
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+}
+
+.row {
+    line-height: 0;
+}
+
+.wall {
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+.blank {
+    background-color:navy;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.start {
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.finish {
+    background-color: rgb(31, 179, 97);
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.html{
+    background-color:navy;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.css{
+    background-color:navy;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.js{
+    background-color:navy;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.sql{
+    background-color:navy;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.mp4{
+    background-color:navy;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.rb{
+    background-color:navy;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.docx{
+    background-color:navy;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.svg{
+    background-color:navy;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.gif{
+    background-color:navy;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.git{
+    background-color:navy;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+#flatironNinja {
+    height: 40px;
+    width: 30px;
+    display: inline-block;
+    background-size: contain;
+    position: absolute;
+    margin-left: 145px;
+    margin-top: -15px;
+  }
+
+/* modal */
+#modal {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  #new-ninja-form {
+    background-color: rgb(255, 237, 194);
+    margin-top: 10vh;
+    width: 600px;
+    margin: 5vh auto;
+  }
+  
+  /* forms */
+  form {
+    padding: 10em 10em 8em;
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    font-size: 0.8rem;
+    width: 100%;
+    max-width: 600px;
+    padding: 0.25em 1em;
+    margin: 0.25em 0 0.5em;
+  }
+  
+  form input[type=submit] {
+    background-color: rgb(22, 184, 233);
+    border-radius: 1em;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    width: auto;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+/* modal2 */
+#modal2 {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  #finishing-ninja-story {
+    background-color: rgb(255, 237, 194);
+    margin-top: 10vh;
+    width: 600px;
+    margin: 5vh auto;
+  }
+  

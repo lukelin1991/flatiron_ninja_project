@@ -1,4 +1,4 @@
 class ProjectFileSerializer < ActiveModel::Serializer
-  attributes :id, :images, :is_found
-  has_one :ninja
+  attributes :id, :name, :image_url
+  # has_one :ninja
 end

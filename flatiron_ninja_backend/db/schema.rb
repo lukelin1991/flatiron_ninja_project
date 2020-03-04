@@ -17,19 +17,15 @@ ActiveRecord::Schema.define(version: 2020_03_01_185512) do
 
   create_table "ninjas", force: :cascade do |t|
     t.string "name"
-    t.integer "folder"
-    t.string "move_right"
-    t.string "move_up"
-    t.string "move_left"
-    t.string "move_down"
+    t.integer "folder", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "project_files", force: :cascade do |t|
+    t.string "name"
     t.string "image_url"
     t.bigint "ninja_id"
-    t.boolean "is_found"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["ninja_id"], name: "index_project_files_on_ninja_id"
